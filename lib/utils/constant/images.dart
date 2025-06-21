@@ -6,14 +6,23 @@ class AppAssetImages {
 
   /* <---- Lines ----> */
 
-  static const String notificationLogoLine =
+  static const String notification =
       '${_lineIconAssetsLocation}notification.svg';
+  static const String share = '${_lineIconAssetsLocation}share.svg';
+  static const String qs = '${_lineIconAssetsLocation}qs.svg';
+  static const String likeLine = '${_lineIconAssetsLocation}like.svg';
+  static const String search = '${_lineIconAssetsLocation}search.svg';
+  static const String shareIcon = '${_lineIconAssetsLocation}share_icon.svg';
 
   /* <---- Solid ----> */
-  static const String sent = '${_solidIconAssetsLocation}sent.svg';
+  static const String send = '${_solidIconAssetsLocation}send.svg';
+  static const String reply = '${_solidIconAssetsLocation}reply.svg';
+  static const String upvote = '${_solidIconAssetsLocation}upvote.svg';
+  // static const String reply = '${_solidIconAssetsLocation}reply.svg';
 
   /*<--------Images-------->*/
 
-  static const String splashBackgroundImage =
-      '${_imageAssetsLocation}splash.png';
+  static const String bannerImage = '${_imageAssetsLocation}banner.png';
+  static const String userImage = '${_imageAssetsLocation}user.png';
+  static const String commenterImage = '${_imageAssetsLocation}commenter.png';
 }
